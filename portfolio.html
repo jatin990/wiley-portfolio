@@ -1,295 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="portfolio.css" />
-    <title>Document</title>
-  </head>
-  <body style="padding-top: 56px">
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactme">contactme</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#academic">Academics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="tellme.html">Tell me something</a>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <title>Document</title>
+</head>
+
+<body style="padding-top: 56px">
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">contactme</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#academic">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tellme.html">Tell me something</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <section id="about" style="height: 100vh; background-color: white">
+      <h2>ABOUT <span style="color:#b5e853;;">ME</span></h2>
+      <p class="desc">Know my alter ego</p>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="svg" src="about.svg" alt="" style="height: 100%;width:100%;">
+        </div>
+        <div class="col-md-6"
+          style="color: black; padding:5px 25px;font-size: 1rem;font-family:'Roboto',sans-serif;margin-top:70px;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cumque sit, reprehenderit maxime enim sunt
+            temporibus, blanditiis consequatur ad minus nemo! A accusamus necessitatibus perspiciatis natus repellendus
+            excepturi fugiat perferendis!</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium obcaecati magnam veritatis aperiam,
+            suscipit earum quaerat numquam eveniet laborum labore perspiciatis est, repellendus neque modi animi
+            praesentium facilis enim fugit.
+          </p>
+          <p>I develop Websites and Applications. I love contributing to OpenSources. Besides, I like to
+            participate in Competitive Coding Challenges.
+          </p>
+          <p>Here are some technologies I have been recently playing with: <br><br>
+            <span class="skills">HTML</span>
+            <span class="skills">CSS</span>
+            <span class="skills">BootStrap</span>
+            <span class="skills">JavaScript(ES6)</span>
+            <span class="skills">Python</span>
+            <span class="skills">Dart</span>
+            <span class="skills">Java</span>
+            <span class="skills">Firebase</span>
+            <span class="skills">C++</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" style="height: 100vh;">
+      <h3>MY <span style="color:#b5e853;">SKILLS</span></h3>
+      <p class="desc">THINGS I AM COMPOSED OF</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 cc">
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>90<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="text">Vulnerability Assessment and Penetration Testing</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 cc">
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>100<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="text">Web development</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 cc">
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>80<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="text">IOT</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 cc">
+            <div class="card">
+              <div class="box">
+                <div class="percent">
+                  <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>70<span>%</span></h2>
+                  </div>
+                </div>
+                <h2 class="text">Android development</h2>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <div>
-      <section
-        id="about"
-        style="height: 100vh; background-color: white"
-      >
-        <h2>ABOUT <span style="color:#b5e853;;">ME</span></h2>
-        <p class="desc">Know my alter ego</p>
-        <div class="row">
-            <div class="col-md-6">
-              <img class="svg" src="about.svg" alt=""  style="height: 100%;width:100%;">
-            </div>
-            <div class="col-md-6"  style="color: black; padding:5px 25px;font-size: 1rem;font-family:'Roboto',sans-serif;margin-top:70px;">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cumque sit, reprehenderit maxime enim sunt temporibus, blanditiis consequatur ad minus nemo! A accusamus necessitatibus perspiciatis natus repellendus excepturi fugiat perferendis!</p>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium obcaecati magnam veritatis aperiam, suscipit earum quaerat numquam eveniet laborum labore perspiciatis est, repellendus neque modi animi praesentium facilis enim fugit.
-                </p>
-                <p>I develop Websites and Applications. I love contributing to OpenSources. Besides, I like to  
-                    participate in Competitive Coding Challenges.  
-                </p>
-                <p>Here are some technologies I have been recently playing with: <br><br>
-                    <span class="skills">HTML</span>
-                    <span class="skills">CSS</span>
-                    <span class="skills">BootStrap</span>
-                    <span class="skills">JavaScript(ES6)</span>
-                    <span class="skills">Python</span>
-                    <span class="skills">Dart</span>
-                    <span class="skills">Java</span>
-                    <span class="skills">Firebase</span>
-                    <span class="skills">C++</span>
-                </p>
-            </div>
-        </div>
-  </section>
-      <section
-        id="projects"
-        style="
+      </div>
+    </section>
+    <section id="projects" style="
           height: 100vh;
           background-color: rgb(59, 58, 58);
           text-align: center;
           position: relative;
-        "
-      >
-        <div class="container-fluid">
-          <img class="svg" src="project.svg" style="height: 300px;margin-top: 2px;" alt="" srcset="" />
+        ">
+      <div class="container-fluid">
+        <img class="svg" src="project.svg" style="height: 300px;margin-top: 2px;" alt="" srcset="" />
+        <div class="row">
+          <div class="col-3 d-flex justify-content-start align-items-center">
+            <span class="navbutton" onclick="PlusProject(-1)">
+              <- </span>
+          </div>
+          <div class="col-6 d-flex justify-content-center align-items-center" id="projects">
+            <div class="card text-center project fade" style="width: 100%; height: 100%">
+              <div class="card-header">Project</div>
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+              <div class="card-footer text-muted">timeline</div>
+            </div>
+            <div class="card text-center project fade" style="width: 100%; height: 100%" ;>
+              <div class="card-header">Project</div>
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+              <div class="card-footer text-muted">timeline</div>
+            </div>
+            <div class="card text-center project fade" style="width: 100%; height: 100%">
+              <div class="card-header">Project</div>
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, provident fugit sint hic quia quas. Earum
+                  labore dignissimos, pariatur sint doloribus quia, molestias
+                  vel voluptas nostrum maiores incidunt accusamus
+                  necessitatibus.
+                </p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+              <div class="card-footer text-muted">timeline</div>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end align-items-center">
+            <span class="navbutton" onclick="PlusProject(1)"> -> </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contactme">
+      <div class="feat bg-gray pt-5 pb-5">
+        <div class="container">
           <div class="row">
-            <div class="col-3 d-flex justify-content-start align-items-center">
-              <span class="navbutton" onclick="PlusProject(-1)"> <- </span>
+            <div class="section-head col-sm-12">
+              <br>
+              <br>
+              <h4><span>Contact </span> Me!</h4>
+              <p> Let's connect..</p>
             </div>
-            <div
-              class="col-6 d-flex justify-content-center align-items-center"
-              id="projects"
-            >
-              <div
-                class="card text-center project fade"
-                style="width: 100%; height: 100%"
-              >
-                <div class="card-header">Project</div>
-                <div class="card-body">
-                  <h5 class="card-title">Project 1</h5>
-                  <p class="card-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.
-                  </p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-                <div class="card-footer text-muted">timeline</div>
-              </div>
-              <div
-                class="card text-center project fade"
-                style="width: 100%; height: 100%"
-                ;
-              >
-                <div class="card-header">Project</div>
-                <div class="card-body">
-                  <h5 class="card-title">Project 2</h5>
-                  <p class="card-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.
-                  </p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-                <div class="card-footer text-muted">timeline</div>
-              </div>
-              <div
-                class="card text-center project fade"
-                style="width: 100%; height: 100%"
-              >
-                <div class="card-header">Project</div>
-                <div class="card-body">
-                  <h5 class="card-title">Project 3</h5>
-                  <p class="card-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis, provident fugit sint hic quia quas. Earum
-                    labore dignissimos, pariatur sint doloribus quia, molestias
-                    vel voluptas nostrum maiores incidunt accusamus
-                    necessitatibus.
-                  </p>
-                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                </div>
-                <div class="card-footer text-muted">timeline</div>
-              </div>
+
+            <div class="item"> <img src="phone.png" alt="phone">
+              <h3>Phone</h3>
+              <p>+91 - 2461532457</p>
             </div>
-            <div class="col-3 d-flex justify-content-end align-items-center">
-              <span class="navbutton" onclick="PlusProject(1)"> -> </span>
+
+
+            <div class="item"> <img src="mail.png" alt="phone">
+              <h3>EmailID</h3>
+              <p><a href="mailto:abcdefghilk@gmail.com">abcdefghilk@gmail.com</p>
             </div>
+
+            <div class="item"> <img src="linkedin.png" alt="phone">
+              <h3>Linkedin</h3>
+              <p><a href="https://www.linkedin.com/">https://www.linkedin.com/</p>
+            </div>
+
+
           </div>
         </div>
-      </section>
-      <section id="contactme">
-        <div class="feat bg-gray pt-5 pb-5">
-          <div class="container">
-            <div class="row">
-              <div class="section-head col-sm-12">
-        <br>
-      <br>
-                <h4><span>Contact </span> Me!</h4>
-                <p> Let's connect..</p>
-              </div>
-      
-                <div class="item"> <img src="phone.png" alt="phone">
-                  <h3>Phone</h3>
-                  <p>+91 - 2461532457</p>
-                </div>
-          
-       
-                <div class="item"> <img src="mail.png" alt="phone">
-                  <h3>EmailID</h3>
-                  <p><a href="mailto:abcdefghilk@gmail.com">abcdefghilk@gmail.com</p>
-                </div>
-      
-               <div class="item"> <img src="linkedin.png" alt="phone">
-                  <h3>Linkedin</h3>
-                  <p><a href="https://www.linkedin.com/">https://www.linkedin.com/</p>
-                </div>
-      
-      
+      </div>
+    </section>
+    <section id="academic">
+      <div class="feat bg-gray pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="section-head col-sm-12">
+              <br>
+              <br>
+              <h4><span>Academic </span> Details</h4>
+              <p> These are all of the subjects I have studied in my Academics</p>
             </div>
+            <center>
+              <table class="styled-table">
+                <thead>
+                  <tr>
+                    <th>First Year</th>
+                    <th>Second Year</th>
+                    <th>Third Year</th>
+                    <th>Fourth Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Graphics</td>
+                    <td>Computer Architecture</td>
+                    <td>Design & Analysis of Algorithm</td>
+                    <td>Software Testing</td>
+                  </tr>
+                  <tr>
+                    <td>Engineering Mathematics</td>
+                    <td>Operating Systems</td>
+                    <td>System Programming</td>
+                    <td>Business Analytics</td>
+                  </tr>
+
+                  <tr>
+                    <td>Physics</td>
+                    <td>Data Structures</td>
+                    <td>Cloud Computing</td>
+                    <td>Software Designing & Modeling</td>
+                  </tr>
+
+                  <tr>
+                    <td>Chemistry</td>
+                    <td>Database Management System</td>
+                    <td>Human Computer Interaction</td>
+                    <td>Internet of Things</td>
+                  </tr>
+
+                  <tr>
+                    <td>Fundamentals of Programming Language</td>
+                    <td>Software Engineering</td>
+                    <td>Theory of Computation</td>
+                    <td>Machine Learning</td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </center>
           </div>
         </div>
-      </section>
-      <section id="academic">
-        <div class="feat bg-gray pt-5 pb-5">
-          <div class="container">
-            <div class="row">
-              <div class="section-head col-sm-12">
-        <br>
-      <br>
-                <h4><span>Academic </span> Details</h4>
-                <p> These are all of the subjects I have studied in my Academics</p>
-              </div>
-      <center>
-      <table class="styled-table">
-          <thead>
-              <tr>
-                  <th>First Year</th>
-                   <th>Second Year</th>
-           <th>Third Year</th>
-             <th>Fourth Year</th>
-              </tr>
-          </thead>
-          <tbody>
-              <tr>
-                  <td>Graphics</td>
-                  <td>Computer Architecture</td>
-      <td>Design & Analysis of Algorithm</td>
-      <td>Software Testing</td>
-              </tr>
-         <tr>
-                  <td>Engineering Mathematics</td>
-                  <td>Operating Systems</td>
-      <td>System Programming</td>
-      <td>Business Analytics</td>
-              </tr>
-      
-              <tr>
-                  <td>Physics</td>
-                  <td>Data Structures</td>
-      <td>Cloud Computing</td>
-      <td>Software Designing & Modeling</td>
-              </tr>
-      
-              <tr>
-                  <td>Chemistry</td>
-                  <td>Database Management System</td>
-      <td>Human Computer Interaction</td>
-      <td>Internet of Things</td>
-              </tr>
-      
-              <tr>
-                  <td>Fundamentals of Programming Language</td>
-                  <td>Software Engineering</td>
-      <td>Theory of Computation</td>
-      <td>Machine Learning</td>
-              </tr>
-      
-       
-          </tbody>
-      </table>
-      </center>
-            </div>
-          </div>
-        </div>
-        <section>
-    </div>
-  </body>
-  <script src="portfolio.js"></script>
+      </div>
+      <section>
+  </div>
+</body>
+<script src="portfolio.js"></script>
+
 </html>
